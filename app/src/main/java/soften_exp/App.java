@@ -224,9 +224,9 @@ public class App {
         return output;
     }
 
-    String generateNewText(String inputtext) {
+    String generateNewText(String inputText) {
         List<String> newWordList = new ArrayList<String>();
-        String[] temp_words = inputtext.split("\\W+");
+        String[] temp_words = inputText.split("\\W+");
         List<String> output = new ArrayList<String>();
         for (String word : temp_words) {
             newWordList.add(word.toLowerCase());
